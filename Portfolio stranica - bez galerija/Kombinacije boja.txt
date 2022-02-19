@@ -1,0 +1,6 @@
+#FFFFFF - bijela
+#666666 - siva
+#3399FF - svijetlo plava
+#3366CC - tamno plava
+#252525 - baš tamna siva
+#000000 - crna

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> <!-- bootstrap link -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css"> <!--bootstrap ikonice-->
+	<link rel="stylesheet" type="text/css" href="styles/style.css"> <!-- eksterni stylesheet -->
+	<link rel="stylesheet" type="text/css" href="styles/projectStyle.css"> <!-- eksterni stylesheet specijalan za ovaj html-->
+	<link rel="icon" type="image/png" href="images/logoBijeliInicijali.png"> <!-- ikonica u tabu -->
+	<title>Edin Smajić | Project 2</title>
+
+</head>
+<body>
+
+	<header id="heder">
+		<!-- Navigacijski menu uzet s linka: https://getbootstrap.com/docs/5.1/components/navbar/ -->
+		<nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #252525;">
+		  <div class="container">
+		    <a class="navbar-brand" href="index.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Go to the Home Page"><img id="slikaNava" src="images/homeTransparentni.png" alt="home"></a>
+		    <span id="tekstPoredSlikeNava">Project 2</span>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarText">
+		      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		        <li class="elementMenija" class="nav-item">
+		          <a class="navLink nav-link" href="index2.html">Blog</a>
+		        </li>
+		      </ul>
+		    </div>
+			<a id="linkZa" class="d-none d-lg-block" href="#futer"><i style="font-size: 20px;" class="bi bi-arrow-down"></i></a>
+		  </div>
+		</nav>
+	</header>
+
+	<!-- https://github.com/smajic07/Strukture-Matrica -->
+	<div id="nadSadrzaj" class="container-fluid">
+		<div id="sadrzaj" class="row justify-content-center">
+			<div class="col-10">
+				<h3>Class Sparse Matrix implemented in C++</h3>
+				<h6>This project was made for Data Structures and Algorithms on the 3rd semester of my course "Computer science".</h6><br>
+			    <p>The topic of this project is to create a C++ class representing Sparse Matrix, which stores only non-zero values in memory with their location in the matrix itself. This class supports operations of addition, substraction, multiplication and transposition. Why even make a Sparse Matrix class? Well, because it is computationally expensive to represent and work with sparse matrices as though they are dense, and much improvement in performance can be achieved by using representations and operations that specifically handle the matrix sparsity. You can see in the example below that only 12 out of the 63 fields in the matrix are non-zero values, that is where Sparse Matrix comes in handy.</p></p>
+			    <img src="images/strukture1.png" style="border-radius: 8px;" alt="sparse matrix example" class="img-fluid"><br><br>
+			    <div class="row justify-content-between">
+				    <div class="col-5">
+					    Visit my github to find out more about the implementation itself: 
+					    <a style="font-size: 120%; text-decoration: underline;" href="https://github.com/smajic07/Strukture-Matrica">github.com/smajic07/Strukture-Matrica</a>
+					</div>
+					<div style="text-align: right;" class="col-4">
+					    <span class="d-none d-lg-inline">Find out more about </span>Sparse Matrix:<br>
+					    <a style="text-decoration: underline;" href="https://en.wikipedia.org/wiki/Sparse_matrix">wiki/Sparse</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer id="futer">
+		<div class="container-fluid">
+			<a id="linkZa" href="#heder"><i style="font-size: 20px;" class="bi bi-arrow-up"></i>To the top</a>
+			<div id="praviFuter">
+				<p><span>Copyright © 2021 All Rights Reserved by <a href="mailto:smajic.edin.7@gmail.com" data-bs-toggle="tooltip" data-bs-placement="top" title="Send me an email">Edin Smajić</a></span>.</p>
+				<div id="linkovi">
+					<div class="maliKontenjer"><a class="link" href="https://www.facebook.com/smajic07/"target="_blank"><i id="linkfb" class="bi bi-facebook"> </i>Add me on Facebook</a></div>
+					<div class="maliKontenjer"><a class="link" href="https://www.instagram.com/smajic07/"target="_blank"><i id="linkig" class="bi bi-instagram"> </i>Follow me on Instagram</a></div>
+					<div class="maliKontenjer"><a class="link" href="https://twitter.com/smajic07/"target="_blank"><i id="linktw" class="bi bi-twitter"> </i> Follow me on Twitter</a></div>
+				</div>
+				<p>This web site was built using great tools like <a id="htmlLink" href="https://www.w3schools.com/html/">HTML</a>, <a id="cssLink" href="https://www.w3schools.com/css/default.asp">CSS</a> & <a id="bootstrapLink" href="https://getbootstrap.com/docs/5.0/getting-started/introduction/"> Bootstrap 5</a>.</p>			
+			</div>
+		</div>
+	</footer>
+
+	<!-- javascript link, potreban za pocetni navbar -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+	<!-- javascript kod, potreban za tooltip -->
+	<script type="text/javascript">
+		var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+		var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+		  return new bootstrap.Tooltip(tooltipTriggerEl)
+		})
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+#heder{
+	margin-bottom: 1px;
+}
+
+#futer{
+	margin-top: 1px;
+}
+
+main{
+	background-color: #f9fcff;
+	background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%);
+}
+
+.razdvajalica{
+	width: 98%;
+	border-top: solid 2px #111111;
+	margin: 0 auto;
+	color: #111111;
+}
+
+#blog1{
+	padding: 20px;
+}
+
+#tabela{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#pajton, #cpp, #pajtonVsCpp, #zakljucak{
+	margin: 20px 0;
+}
+
+#pajton{
+	margin-top: 5px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.red:hover{
+	background-color: white;
+	text-decoration: none;
+	color: black;
+}
+
+.red:hover  a{
+	color: black;
+}
+
+a:visited{
+	color: darkgrey;
+}
+
+#digresija1, #digresija2{
+	border: solid 1px black;
+	background-color: #252525;
+	color: white;
+	padding: 15px;
+	padding-left: 20px;
+	margin-bottom: 25px;
+}
+
+pre{
+	color: white;
+}
+
+#blog1{
+	margin-bottom: 50px;
+}
+
+#blog2{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.podnaslov{
+	font-size: 30px;
+}
+
+#tabelaMoba{
+	margin: 20px 0;
+}
+
+#tabelaMoba tr>td{
+	width: 50%;
+}
+
+#slikeMoba{
+	padding-bottom: 30px;
+}
+
+#slikeMoba img:hover{
+	transform: scale(1.15);
+    transition: transform .5s;
+}

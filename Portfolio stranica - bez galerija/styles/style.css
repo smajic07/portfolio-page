@@ -1,0 +1,151 @@
+html{
+	width: 100%;
+	height: 100%;
+	color: black;
+}
+
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
+#heder{
+	margin-bottom: 20px;
+}
+
+#slikaNava{
+	width: 64px;
+}
+
+#tekstPoredSlikeNava{
+	margin: 0px 32px 0px 16px; 
+	color: white; 
+	font-weight: 700; 
+	font-size: 175%;
+}
+
+.navLink{
+	font-size: 130%;
+	color: white;
+	text-align: center;
+}
+
+.navLink:hover{
+	font-size: 150%;
+	background-color: #3399FF;
+	color: white;
+	border-radius: 1px;
+}
+
+#futer{
+	margin-top: 20px;
+	text-align: center; 
+	color: white;
+	background-color: #252525;
+	padding: 10px;
+}
+
+#linkZa{
+	color: white;
+	padding: 1px 2px;
+	text-decoration: underline;
+}
+
+#linkZa:hover{
+	color: black;
+	background-color: white;
+	padding: 3px;
+	border-radius: 5px;
+}
+
+#praviFuter{
+	margin-top: 10px;
+}
+
+#linkovi{
+	padding: 5px 5px 10px;
+}
+
+.maliKontenjer{
+	margin-bottom: 5px;
+}
+
+.link{
+	display: block;
+	margin: 0 auto;
+	padding: 1px 3px 1px 6px;
+	width: 220px;
+	border-radius: 3px;
+	text-align: left;
+	background-color: white;
+	color: black;
+}
+
+.link:hover{
+	background-color: #aaaaaa;
+	color: black;
+}
+
+a{
+	text-decoration: none;
+	color: #3399FF;
+}
+
+a:hover{
+	color: #3366CC;
+}
+
+a:active{
+	color: red;
+}
+
+a:visited{
+	color: darkgrey;
+}
+
+#linkfb{
+	 color: #4267B2;
+	 font-size: 20px;
+}
+
+#linkig{
+	color: #833AB4; 
+	font-size: 20px;
+}
+
+#linktw{
+	color: #00acee; 
+	font-size: 20px;
+}
+
+#htmlLink{
+	color: orange;
+}
+
+#htmlLink:hover{
+	background-color: orange;
+	border-radius: 3px;
+	padding: 1px 2px;
+	color: white;
+}
+
+#cssLink{
+	color: #3399FF;
+}
+
+#cssLink:hover{
+	background-color: #3399FF;
+	border-radius: 3px;
+	padding: 1px 2px;
+	color: white;
+}
+
+#bootstrapLink{
+	color: mediumpurple;
+}
+
+#bootstrapLink:hover{
+	background-color: mediumpurple;
+	border-radius: 3px;
+	padding: 1px 2px;
+	color: white;
+}

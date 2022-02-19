@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> <!--bootstrap link-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css"> <!--bootstrap ikonice-->
+	<link rel="stylesheet" type="text/css" href="styles/style.css"> <!-- eksterni stylesheet -->
+	<link rel="stylesheet" type="text/css" href="styles/style2.css"> <!-- eksterni stylesheet specijalan za ovaj html-->
+	<link rel="icon" type="image/png" href="images/logoPlaviInicijali.png"> <!-- ikonica u tabu -->
+	<title>Edin Smajić | Blog Page</title>
+
+</head>
+<body>
+
+	<header id="heder">
+		<!-- Navigacijski menu uzet s linka: https://getbootstrap.com/docs/5.1/components/navbar/ -->
+		<nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #252525;">
+		  <div class="container">
+		    <a class="navbar-brand" href="index.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Go to the Home Page"><img id="slikaNava" src="images/homeTransparentni.png" alt="home"></a>
+		    <span id="tekstPoredSlikeNava">Blog</span>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarText">
+		      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		        <li class="elementMenija" class="nav-item">
+		          <a class="navLink nav-link text-light" href="index2.html">Blog</a>
+		        </li>
+		      </ul>
+		    </div>
+			<a id="linkZa" class="d-none d-lg-block" href="#futer"><i style="font-size: 20px;" class="bi bi-arrow-down"></i></a>
+		  </div>
+		</nav>
+	</header>
+
+	<main>
+
+		<div id="blog1" class="container">
+			<h1 style="text-align: center;">C++ vs Python</h1>
+			<div class="row justify-content-center">
+				<div id="uvod" class="col-12">
+					<p>
+						The debate of Python vs C++ is an intriguing topic since both programming languages are very different in terms of their syntax, simplicity, use, and overall approach to programming. Therefore, people find it difficult when choosing which programming language to learn.
+						C++ is a general-purpose programming language with its roots in the C language. Even though Python is also a general-purpose, it is a high-level language, meaning that Python code is easy-to-read and understand.<p>
+						Here is the question that beginners are mostly interested in:<i> is Python easier than C++?</i><br> Python is much more beginner-friendly, while C++ is a more complicated, low-level language. C++ has more syntax rules and other programming conventions, while Python aims to imitate the regular English language.
+						When it comes to their use cases, Python is the leading language for machine learning and data analysis, and C++ is the best option for game development and large systems.
+					</p>
+				</div>
+				<div id="slika" class="col-12 col-md-7">
+					<img src="images/blog/cpp-vs-python.gif" class="img-fluid" style="width: 100%">
+				</div>
+			</div>
+
+			<div class="row justify-content-center">
+				<div id="tabela" class="col-12 col-lg-7">
+					
+					<table class="table table-dark">
+
+						<h2 style="text-align: center;">Table of content</h2>
+						<tr>
+							<th></th>
+							<th>Topic</th>
+							<th>Description</th>
+						</tr>
+						<tr class="red">
+							<td>1.</td>
+							<td><a href="#pajton"><div>Python</div></a></td>
+							<td><a href="#pajton"><div>Uses of Python</div></a></td>
+						</tr>
+						<tr class="red">
+							<td>2.</td>
+							<td><a href="#cpp"><div>C++</div></a></td>
+							<td><a href="#cpp"><div>Uses of C++</div></a></td>
+						</tr>
+						<tr class="red">
+							<td>3.</td>
+							<td><a href="#pajtonVsCpp"><div>Python vs C++</div></a></td>
+							<td><a href="#pajtonVsCpp"><div>Main Differences</div></a></td>
+						</tr>
+						<tr class="red">
+							<td>4.</td>
+							<td><a href="#zakljucak"><div>Conclusion</div></a></td>
+							<td><a href="#zakljucak"><div>Pros and cons of both</div></a></td>
+						</tr>
+					
+				    </table>
+
+				</div>
+			</div>
+
+
+			<div class="row justify-content-around">
+				<div id="pajton" class="col-12">
+					<h2>1. Python</h2>
+					<p>
+						From the early days of development, Python was intended to be as simple to use as possible. Simplicity is actually what it’s known for – Python utilizes a plentiful amount of whitespace to make its code easily readable, thus providing a pleasant and simple learning experience. Another important feature of Python is that it is an interpreted language, meaning that the Python code is not converted to machine-readable at runtime.
+					</p>
+					<ol type="i">
+						<h4>Uses of Python</h4>
+						<li>Artificial intelligence (AI)</li>
+						<li>Machine learning (ML)</li>
+						<li>Data analytics</li>
+						<li>Data visualisation</li>
+						<li>Web development</li>
+						<li>Programming applications</li>
+					</ol>
+				</div>
+			</div>
+
+			<div class="row justify-content-around">
+				<div id="cpp" class="col-12">
+					<h2>2. C++</h2>
+					<p>
+						C++ is a general-purpose language usually involved in the development of large and complicated systems. This language is the most portable out of the whole circle of programming languages. When comparing Python vs C++, Python follows a rule of “write once, run anywhere,” which means that one code will work on all operating systems. However, the C++ code needs to compile on each OS before it can execute.
+					</p>
+					<ol type="i">
+						<h4>Uses of C++</h4>
+						<li>Operating systems</li>
+						<li>Game development</li>
+						<li>Databases</li>
+						<li>Web browsers</li>
+						<li>AR/VR applications</li>
+						<li>Scientific research</li>
+					</ol>
+				</div>
+			</div>
+
+			<div class="row justify-content-around">
+				<div id="pajtonVsCpp" class="col-12">
+					<h2>3. Python vs C++</h2>
+					<p>
+						C++ is a general-purpose language usually involved in the development of large and complicated systems. This language is the most portable out of the whole circle of programming languages. When comparing Python vs C++, Python follows a rule of “write once, run anywhere,” which means that one code will work on all operating systems. However, the C++ code needs to compile on each OS before it can execute. When it comes to Python vs C++, learning C++ for Python programmers is different since C++ is more complex, requires more contemplation and research. One good thing is that learning Python for C++ programmers should be quite easy. Python follows simple conventions that are not too difficult to master in a considerably short time.
+					</p>
+					<div>
+						<h3 style="text-align: center; margin-top: 30px;">Main Differences</h3>
+						<h5>Small digression</h5>
+
+						<p>Starting to discuss Python VS C++ in terms of syntax can begin with a simple statement: C++ rules and principles are much more complicated than Python. Why is that? Take a look at how a basic C++ code snippet looks:</p>
+						<div id="digresija1">
+<pre><code>#include iostream
+using namespace std;
+int main() {
+  string name;
+  cin >> name;
+  cout << "Good evening, " << name;
+return 0;
+}</code></pre>
+						</div>	
+						<p>And here is an example of Python code:</p>
+						<div id="digresija2">
+<pre><code>name = input()
+print("Good evening, " + name)</code></pre></div>
+					<h5>Back to the differences</h5>
+					<ul>
+						<li>C++ code needs curly brackets and semicolons to work. Python offers a more friendly approach as it abandons such programming rules. It mainly depends on the indentation of code. This feature refers to the fact that each level of indentation creates the structure of code.</li>
+						<li>Instead of using a semicolon, Python treats the end of the line as the end of the statement. If you need your statement to continue for several lines, you should use the backslash (\) sign. In C++, you need to use a semicolon to indicate the end of the statement.</li>
+						<li>Variables in C++ need to have a type such as a float or an int because this language is statically-typed. Dynamic typing is a feature of Python, meaning that you do not need to indicate the type of the object.</li>
+						<li>Single and multiple inheritance works in both Python in C++.</li>
+						<li>One important aspect of Python vs C++ is <b>memory management</b>. Python does not let you handle memory directly. Instead, it offers automatic memory management, referred to as a garbage collector. C++ does not have such a feature, and all memory management happens manually.</li>
+					</ul>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="row justify-content-center">
+				<div id="zakljucak" class="col-12">
+					<h2>4. Conclusion</h2>
+					<p>
+						Comparing Python vs C++ leads to one conclusion: Python is better for beginners in terms of its easy-to-read code and simple syntax. Additionally, Python is a good option for web development (back-end), while C++ is not very popular in web development of any kind.
+						Python is also a leading language for data analysis and machine learning. While it is possible to use C++ for machine learning purposes as well, it is not a good option.
+					</p>
+					<p>
+						In terms of simplicity, Python is much easier to use and has a great support system when it comes to AI and ML frameworks.
+						C++ wins the race when it comes to game development. Yes, Python can create simple games that will help you understand the basic logic and steps of producing a game. However, for more sophisticated game development, C++ is an unstoppable leader.
+					</p>
+					<p>
+						The performance of C++ and Python also comes to an end with this conclusion: C++ is much faster than Python. After all, Python is an interpreted language, and it cannot be a match for a compiled language such as C++.
+						The good news is that you can get the best of both worlds by combining C++ and Python code. Therefore, some speed-critical parts of your project can use C++ instead of Python.
+					  <em>Find out more on this topic in the video bellow.</em>
+					</p>
+				</div>
+				<div class="col-12 col-md-6">
+					<!-- uzet s linka https://www.youtube.com/embed/bicEbyqYKAk -->
+					<iframe width=100% height=400 src="https://www.youtube.com/embed/bicEbyqYKAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>	
+			</div>
+
+		</div>
+
+		<hr class="razdvajalica">
+
+		<div id="blog2" class="container-fluid">
+			<div id="sadrzajBloga2" class="row justify-content-center">
+				<h1 style="margin-bottom: 20px;">Xiaomi Mi 11 Pro</h1>
+				<div class="col-10">
+					<p>
+						With Xiaomi releasing four versions of their 2021 Mi 11 smartphone, the Mi 11 Pro sits between the flagship Mi 11 Ultra and standard Mi 11 in the line up. At the time of writing the Mi 11 Pro isn’t set for a global release however, with the device exclusive to the Chinese market.
+					</p>
+					<p>
+						Basic phone specs include the top-end Snapdragon 888 chipset with up to 12 GB RAM and 256 GB storage. There’s also a large 6.81-inch WQHD display with 120 Hz refresh rate and 100% of the P3 color gamut. To keep that all running the Mi 11 Pro is fitted with a 5000mAh battery that boasts both wired and wireless 67 W charging.
+					</p><p>
+						For photography, the device features a triple camera set up including standard wide, ultra-wide and telephoto modules. That’s something of a downgrade from the Mi 10 Pro, which included two tele lenses in a four camera set up. The sole tele lens on the Mi 11 Pro is a 120mm-equivalent periscope style lens offering 5x optical zoom, making it an interesting option for long lens enthusiasts.
+					</p><p>
+						For video enthusiasts, the Mi 11 Pro’s top billing is 8K/24fps capture, with 4K at variable 30/60fps, and either 1080p or 720p up to a whopping 1920fps for slow-motion effects.
+						<em>Find out all the details about this smartphone in the table bellow.</em>
+					</p>
+				</div>
+				<div id="tabelaMoba" class="col-12 col-sm-9 col-lg-7">
+					<table class="table table-dark">
+						<tr>
+							<td class="podnaslov" colspan="2"><i class="bi bi-info-circle"></i> Model</td>
+						<tr>
+						<tr>
+							<td>Manafacturer</td>
+							<td>Xiaomi</td>
+						</tr>
+						<tr>
+							<td>Model</td>
+							<td>Mi 11 Pro</td>
+						</tr>
+						<tr>
+							<td>Date of release</td>
+							<td>2021, January 1st</td>
+						</tr>
+						<tr>
+							<td>Operating system</td>
+							<td>Android 11, MIUI 12.5</td>
+						</tr>
+						<tr>
+								<td class="podnaslov" colspan="2"><i class="bi bi-aspect-ratio"></i> Design</td>
+						</tr>
+						<tr>
+							<td>Height</td>
+							<td>164.3 mm</td>
+						</tr>
+						<tr>
+							<td>Width</td>
+							<td>74.6 mm</td>
+						</tr>
+						<tr>
+							<td>Thickness</td>
+							<td>8.53 mm</td>
+						</tr>
+						<tr>
+							<td>Weight</td>
+							<td>208 g</td>
+						</tr>
+						<tr>
+							<td>Build</td>
+							<td>Glass front, glass/leather back & aluminum frame</td>
+						</tr>
+						<tr>
+							<td>Certificate</td>
+							<td>IP68</td>
+						</tr>
+						<tr>
+							<td class="podnaslov" colspan="2"><i class="bi bi-phone"></i> Screen</td>
+						</tr>
+						<tr>
+							<td>Diagonal</td>
+							<td>6.81 inches</td>
+						</tr>
+						<tr>
+							<td>Type</td>
+							<td>E4 AMOLED</td>
+						</tr>
+						<tr>
+							<td>Resolution</td>
+							<td>3200 x 1440 px,  20:9 aspect ratio </td>
+						</tr>
+						<tr>
+							<td>Density</td>
+							<td>515 ppi</td>
+						</tr>
+						<tr>
+							<td>Refresh rate</td>
+							<td>120Hz</td>
+						</tr>
+						<tr>
+								<td class="podnaslov" colspan="2"><i class="bi bi-cpu"></i> Internal specs</td>
+						</tr>
+						<tr>
+							<td>Processor</td>
+							<td>Qualcomm Snapdragon 888,  8 cores</td>
+						</tr>
+						<tr>
+							<td>Graphics card</td>
+							<td>Adreno 660</td>
+						</tr>
+						<tr>
+							<td>RAM</td>
+							<td>8/12 GB,  type LPDDR5</td>
+						</tr>
+						<tr>
+							<td>Internal storage</td>
+							<td>128/256 GB, UFS 3.1</td>
+						</tr>
+						<tr>
+								<td class="podnaslov" colspan="2"><i class="bi bi-camera-fill"></i> Camera</td>
+						</tr>
+						<tr>
+							<td>Front camera</td>
+							<td>20 MP, f/2.4, up to FULL HD 60fps video</td>
+						</tr>
+						<tr>
+							<td>Main camera</td>
+							<td>50 MP, f/1.95, up to 8K 24fps video</td>
+						</tr>
+						<tr>
+								<td class="podnaslov" colspan="2"><i class="bi bi-battery-full"></i> Battery</td>
+						</tr>
+						<tr>
+							<td>Capacity</td>
+							<td>5000 mAh, Quick Charge 4+, wireless charging..</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+
+		<div id="slikeMoba" class="container">
+			<div class="row justify-content-center">
+				<div class="col-11 col-md-4">
+					<img src="images/blog/xiaomi1.jpg" width=100%>
+				</div>
+				<div class="col-11 col-md-4">
+					<img src="images/blog/xiaomi2.jpg" width=100%>
+				</div>
+				<div class="col-11 col-md-4">
+					<img src="images/blog/xiaomi3.jpg" width=100%>
+				</div>
+				<div style="margin-top: 40px;" class="col-12">
+						<p style="text-align: center;">End of Blog page</p>
+				</div>
+			</div>
+		</div>
+
+	</main>
+
+	<footer id="futer">
+		<div class="container-fluid">
+			<a id="linkZa" href="#heder"><i style="font-size: 20px;" class="bi bi-arrow-up"></i>To the top</a>
+			<div id="praviFuter">
+				<p><span>Copyright © 2021 All Rights Reserved by <a href="mailto:smajic.edin.7@gmail.com" data-bs-toggle="tooltip" data-bs-placement="top" title="Send me an email">Edin Smajić</a></span>.</p>
+				<div id="linkovi">
+					<div class="maliKontenjer"><a class="link" href="https://www.facebook.com/smajic07/"target="_blank"><i id="linkfb" class="bi bi-facebook"> </i>Add me on Facebook</a></div>
+					<div class="maliKontenjer"><a class="link" href="https://www.instagram.com/smajic07/"target="_blank"><i id="linkig" class="bi bi-instagram"> </i>Follow me on Instagram</a></div>
+					<div class="maliKontenjer"><a class="link" href="https://twitter.com/smajic07/"target="_blank"><i id="linktw" class="bi bi-twitter"> </i> Follow me on Twitter</a></div>
+				</div>
+				<p>This web site was built using great tools like <a id="htmlLink" href="https://www.w3schools.com/html/">HTML</a>, <a id="cssLink" href="https://www.w3schools.com/css/default.asp">CSS</a> & <a id="bootstrapLink" href="https://getbootstrap.com/docs/5.0/getting-started/introduction/"> Bootstrap 5</a>.</p>			
+			</div>
+		</div>
+	</footer>
+
+	<!-- javascript link, potreban za pocetni navbar -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+	<!-- javascript kod, potreban za tooltip -->
+	<script type="text/javascript">
+		var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+		var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+		  return new bootstrap.Tooltip(tooltipTriggerEl)
+		})
+	</script>
+
+</body>
+</html>
