@@ -1,2 +1,2 @@
-# portfolio-stranica
-Projekat iz predmeta Web programiranje na temu "Portfolio stranica".
+# portfolio-page
+Project in "Web Programming" on the topic of "Portfolio Page".
